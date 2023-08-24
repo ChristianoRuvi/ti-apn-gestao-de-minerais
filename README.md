@@ -1,4 +1,5 @@
-# Nome do projeto
+# Mineral Auctions
+
 
 O nosso projeto tem como objetivo principal estabelecer uma plataforma eficiente e transparente para a comercialização de minérios. Por meio deste sistema, produtores de minerais podem ofertar seus produtos ao mercado, enquanto compradores têm acesso a uma variedade ampla e diversificada de minérios em um ambiente competitivo de lances. Além de maximizar o valor dos minerais para os vendedores, este projeto visa garantir que as transações sejam realizadas de forma justa, transparente e em conformidade com as regulamentações vigentes.
 
