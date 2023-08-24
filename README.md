@@ -1,17 +1,20 @@
 # Nome do projeto
 
-Escreva um ou dois  parágrafo resumindo o objetivo do seu projeto.
+O nosso projeto tem como objetivo principal estabelecer uma plataforma eficiente e transparente para a comercialização de minérios. Por meio deste sistema, produtores de minerais podem ofertar seus produtos ao mercado, enquanto compradores têm acesso a uma variedade ampla e diversificada de minérios em um ambiente competitivo de lances. Além de maximizar o valor dos minerais para os vendedores, este projeto visa garantir que as transações sejam realizadas de forma justa, transparente e em conformidade com as regulamentações vigentes.
 
 ## Integrantes
 
-* Nome completo do aluno 1
-* Nome completo do aluno 2
-* Nome completo do aluno 3
-* Nome completo do aluno 4
+* Alexandre Breedveld Athayde Filho
+* Breno de Oliveira Ribeiro
+* Christiano Ruvieri Lebre Lima Oliveira
+* Gustavo Ceolin Silva Veloso
+* Tiago Assunção de Sousa
 
 ## Professor
 
-* Nome completo do professor
+* Eveline Alonso Veloso
+* Hugo Bastos de Paula
+* Juliana Amaral Baroni de Carvalho
 
 ## Instruções de utilização
 
