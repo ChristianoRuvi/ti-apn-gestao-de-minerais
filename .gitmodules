@@ -1,0 +1,3 @@
+[submodule "src/mineral-auctions-front"]
+	path = src/mineral-auctions-front
+	url = git@git.al3xdev.com:mineral-auctions/mineral-auctions-front.git
