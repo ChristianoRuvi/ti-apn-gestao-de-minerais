@@ -1,22 +1,23 @@
-# TITULO DO PROJETO
+# Mineral-Auctions
 
 
-**Nome completo do Aluno 1, email do aluno 1**
+**Alexandre Breedveld Athayde Filho, email do aluno 1**
 
-**Nome completo do Aluno 2, email do aluno 2**
+**Breno de Oliveira RibeiroBreno de Oliveira Ribeiro, email do aluno 2**
 
-**Nome completo do Aluno 3, email do aluno 3**
+**Christiano Ruvieri Lebre Lima OliveiraChristiano Ruvieri Lebre Lima Oliveira, email do aluno 3**
 
-**Nome completo do Aluno 4, email do aluno 3**
+**Gustavo Ceolin Silva Veloso, email do aluno 3**
 
-**Nome completo do Aluno 5, email do aluno 3**
+**Tiago Assunção de Sousa, email do aluno 3**
 
 ---
 
 Professores:
 
-** Prof. Nome do Prof 1 **
-** Prof. Nome do Prof 2 **
+** Eveline Alonso Veloso **
+** Hugo Bastos de Paula **
+** Juliana Amaral Baroni de Carvalho **
 
 ---
 
@@ -26,43 +27,43 @@ _Instituto de Informática e Ciências Exatas – Pontifícia Universidade de Mi
 
 ---
 
-_**Resumo**. Escrever aqui o resumo. O resumo deve contextualizar rapidamente o trabalho, descrever seu objetivo e, ao final, 
-mostrar algum resultado relevante do trabalho (até 10 linhas)._
+_**Resumo**.O nosso projeto tem como objetivo principal estabelecer uma plataforma eficiente e transparente para a comercialização de minérios. Por meio deste sistema, produtores de minerais podem ofertar seus produtos ao mercado, enquanto compradores têm acesso a uma variedade ampla e diversificada de minérios em um ambiente competitivo de lances. Além de maximizar o valor dos minerais para os vendedores, este projeto visa garantir que as transações sejam realizadas de forma justa, transparente e em conformidade com as regulamentações vigentes._
+
+---
 
 ---
 
 
 ## 1. Introdução
 
-_A introdução deve apresentar de dois a quatro parágrafos de contextualização do trabalho._
+_A mineralogia, ciência que estuda a composição, estrutura e propriedades dos minerais, tem sido um campo fascinante que atrai tanto entusiastas quanto especialistas. No cerne desta disciplina, encontra-se a paixão pela coleta de minerais raros e preciosos, que oferecem um vislumbre da beleza e complexidade da Terra. No entanto, a busca por essas preciosidades pode ser um desafio significativo, uma vez que os colecionadores enfrentam dificuldades em encontrar minerais autênticos e confiáveis em um mercado muitas vezes fragmentado e pouco regulamentado. Este trabalho se propõe a abordar esse problema, apresentando uma solução inovadora por meio da criação de uma plataforma online dedicada à mineralogia e à coleção de minerais raros._
+
 
 ### 1.1 Contextualização
 
-_Na **contextualização**, o aluno deve dizer do que se trata o trabalho, em que área ou contexto se insere.
-A **contextualização** deve ser desenvolvida de algo mais genérico para algo mais específico. 
-A citação de pesquisas quantitativas é bem aceita aqui (corretamente referenciadas)._
+_A mineralogia, além de seu valor científico, desempenha um papel fundamental no mundo da coleção e do comércio de minerais raros. A beleza individual desses minerais, muitas vezes dotados de cores e formas impressionantes, atrai uma comunidade global de colecionadores e entusiastas. No entanto, a autenticidade e a procedência dos minerais raros podem ser difíceis de verificar, levando a preocupações sobre a integridade das peças adquiridas. Além disso, a falta de uma plataforma especializada para compra, venda e troca de minerais raros cria obstáculos significativos para os colecionadores que desejam expandir suas coleções ou compartilhar seu conhecimento com outros apaixonados._
 
 ### 1.2 Problema
 
-_Em seguida o aluno deve caminhar a contextualização para descrever o **problema** que o artigo trata. 
-O **problema** pode ser algo vivido em uma empresa específica. Neste caso, o aluno deve rapidamente apresentar 
-o cenário de problema da empresa. A empresa só deve ser citada explicitamente se o aluno tiver autorização 
-para tal._
-
+_O problema central que motiva este trabalho é a carência de um ambiente confiável e especializado para aquisição de minerais raros e autênticos, bem como a interação entre colecionadores e entusiastas. Os colecionadores muitas vezes se deparam com a incerteza em relação à procedência e autenticidade das peças que adquirem, o que prejudica a integridade de suas coleções. Além disso, a ausência de um mercado online dedicado à mineralogia dificulta a identificação de oportunidades e o compartilhamento de conhecimento na comunidade de colecionadores. Portanto, este trabalho busca preencher essa lacuna, oferecendo uma solução abrangente que reúna colecionadores, vendedores confiáveis e especialistas em mineralogia em uma plataforma online dedicada à mineralogia e à coleção de minerais raros._
 ### 1.3 Objetivo geral
 
-_O aluno deve escrever um pequeno parágrafo ou frase com o **objetivo geral** do trabalho. 
-O objetivo deve ser bem direto, específico e definido com verbos de ação (elaborar, propor, ava-liar, comparar etc.)._
+_O objetivo geral deste trabalho é desenvolver uma plataforma online dedicada à mineralogia e à coleção de minerais raros. Esta plataforma visa facilitar a busca, compra e venda de minerais raros autênticos, proporcionando um ambiente confiável e especializado para entusiastas e colecionadores._
 
 #### 1.3.1 Objetivos específicos
 
-_Apresente também alguns (pelo menos 2) **objetivos específicos** dependendo de onde você vai querer 
-concentrar a sua prática investigativa, ou como você vai aprofundar no seu trabalho._
-
+_1-Desenvolver uma Plataforma de Leilões Online: Implementar uma funcionalidade de leilões na plataforma, permitindo que os usuários coloquem seus minerais raros em leilão, definindo preços iniciais e durações de leilão.
+2-Criar um Sistema de Comércio Seguro: Desenvolver um sistema de pagamento seguro que proteja tanto compradores quanto vendedores durante as transações, garantindo a integridade financeira das partes envolvidas.
+3-Implementar Ferramentas de Busca Avançada: Desenvolver um sistema de pesquisa avançado que permita aos usuários filtrar minerais com base em critérios como tipo, localização de origem e faixa de preço._
 ### 1.4 Justificativas
+_A justificativa para o desenvolvimento deste trabalho está baseada na necessidade de atender a uma comunidade crescente de colecionadores e entusiastas da mineralogia. A plataforma proposta contribuirá para:
 
-_Mostre também as **justificativas** para o 
-desenvolvimento do seu trabalho e, caso deseje, desta-que alguma contribuição do trabalho._
+1-Facilitar o acesso a minerais raros e autênticos para colecionadores.
+2-Fomentar a confiabilidade e a transparência nas transações envolvendo minerais raros.
+3-Promover a educação e a interação entre entusiastas da mineralogia.
+4-Contribuir para a preservação e promoção da cultura mineralógica.
+
+Este projeto busca preencher uma lacuna existente no mercado e proporcionar um ambiente seguro e confiável para os apaixonados por minerais raros, agregando valor à comunidade de colecionadores._
 
 ## 2. Participantes do processo
 
@@ -72,12 +73,13 @@ _Apresente aqui os diferentes perfis dos Stakeholders (participantes do processo
 
 ### 3.1. Análise da situação atual
 
-_Apresente uma descrição textual de como os sistemas atuais resolvem o problema que se propoe a resolver.  Caso sua proposta seja inovadora e não existam processos claramente definidos, **apresente como as tarefas que o seu sistema pretende implementar são executadas atualmente**, mesmo que não se utilize tecnologia computacional._
-
+_A atual abordagem para aquisição e negociação de minerais raros se baseia principalmente em métodos tradicionais que envolvem principalmente o uso de feiras, lojas físicas especializadas e interações presenciais entre colecionadores. Nesse contexto, os métodos de verificação de autenticidade e a garantia da procedência dos minerais dependem fortemente da expertise individual dos colecionadores e da reputação dos vendedores._
 ### 3.2. Descrição Geral da proposta
 
-_Apresente aqui uma descrição da sua proposta abordando seus limites e suas ligações com as estratégias e objetivos do negócio. Apresente aqui as oportunidades de melhorias._
-
+_Nosso projeto Mineral-Auctions visa proporcionar um ambiente online confiável, transparente e interativo para aquisição e negociação de minerais raros. Ao aproveitar a tecnologia e a expertise em mineralogia, essa plataforma tem o potencial de superar as limitações da abordagem atual, garantindo a autenticidade e a qualidade das peças.
+Oferecendo uma solução online que permite aos colecionadores de minerais raros acessar uma ampla variedade de peças sem as limitações geográficas das feiras e lojas físicas.
+Introduzindo um sistema de leilões online que aumenta a competitividade e possibilita a aquisição de minerais raros a preços justos.
+Estabelecendo um ambiente seguro e confiável para transações, incluindo um sistema de pagamento protegido._
 ### 3.3. Modelagem dos Processos
 
 [PROCESSO 1 - Nome do Processo](processo-1-nome-do-processo.md "Detalhamento do Processo 1.")
