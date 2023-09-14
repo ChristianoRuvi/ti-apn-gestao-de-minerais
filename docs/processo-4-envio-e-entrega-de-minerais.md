@@ -130,8 +130,8 @@ Os tipos de dados a serem utilizados são:
 **Nome da atividade 1**
 
 | **Campo**       | **Tipo**         | **Restrições** | **Valor default** |
-| ---             | ---              | ---            | ---               |
-| [Nome do campo] | [tipo de dados]  |                |                   |
+| ---             | ---              | Não pode estar vazio            | ---               |
+| Identificação do Mineral	 |Caixa de Texto  |                |                   |
 | ***Exemplo:***  |                  |                |                   |
 | login           | Caixa de Texto   | formato de e-mail |                |
 | senha           | Caixa de Texto   | mínimo de 8 caracteres |           |
