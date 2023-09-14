@@ -129,28 +129,49 @@ Os tipos de dados a serem utilizados são:
 
 **Nome da atividade 1**
 
-| **Campo**       | **Tipo**         | **Restrições** | **Valor default** |
-| ---             | ---              | ---            | ---               |
-| Identificação do Mineral	 |Caixa de Texto  |  Não pode estar vazio              |                   |
-| Quantidade  |  Número                |    Valor >0            |     1              |
-| data de envio          | data   | nao pode ser data da fatura |        data atual        |
-| hora do envio           | hora   | - |           | hora atuaL
+### Atividade: Registro de Envio de Minerais
 
-|Imagem do Mineral |	Imagem |	Formatos: .jpg, .png	-
-|Origem |	Seleção única |	Opções: Mina A, Mina B, Mina C	-
-|Destino |	Seleção única |	Opções: Porto A, Porto B, Porto C	-
-|Documentos Associados |	Arquivo	Formatos: .pdf, .docx	-
-|Link de Rastreamento |	Link |	Deve começar com "http://" ou "https://"	-
+| Campo                     | Tipo              | Restrições                                  | Valor default       |
+|---------------------------|-------------------|---------------------------------------------|---------------------|
+| Identificação do Mineral  | Caixa de Texto    | Não pode estar vazio                        | -                   |
+| Quantidade                | Número            | Valor > 0                                   | 1                   |
+| Data de Envio             | Data              | Não pode ser data futura                    | Data atual          |
+| Hora de Envio             | Hora              | -                                           | Hora atual          |
+| Imagem do Mineral         | Imagem            | Formatos: .jpg, .png                        | -                   |
+| Origem                    | Seleção única     | Opções: Mina A, Mina B, Mina C              | -                   |
+| Destino                   | Seleção única     | Opções: Porto A, Porto B, Porto C           | -                   |
+| Documentos Associados     | Arquivo           | Formatos: .pdf, .docx                       | -                   |
+| Link de Rastreamento      | Link              | Deve começar com "http://" ou "https://"    | -                   |
+
+#### Comandos
+
+| Nome            | Destino                             | Tipo    |
+|-----------------|-------------------------------------|---------|
+| Confirmar Envio | Atividade: Confirmação de Envio     | default |
+| Cancelar        | Início do Processo                  | cancel  |
+
+---
+
+### Atividade: Registro de Entrega de Minerais
+
+| Campo                     | Tipo              | Restrições                                  | Valor default             |
+|---------------------------|-------------------|---------------------------------------------|---------------------------|
+| Identificação do Mineral  | Caixa de Texto    | Não pode estar vazio                        | -                         |
+| Quantidade Recebida       | Número            | Valor > 0                                   | 1                         |
+| Data de Recebimento       | Data e Hora       | Não pode ser data futura                    | Data e hora atual         |
+| Condição do Mineral       | Seleção única     | Opções: Bom, Danificado, Incompleto         | Bom                       |
+| Assinatura do Recebedor   | Imagem            | Formato: .jpg, .png                         | -                         |
+| Feedback                  | Área de texto     | Máximo de 500 caracteres                    | -                         |
+
+#### Comandos
+
+| Nome                 | Destino                                 | Tipo    |
+|----------------------|-----------------------------------------|---------|
+| Confirmar Recebimento| Atividade: Confirmação de Recebimento   | default |
+| Reportar Problema    | Atividade: Reportar Problema na Entrega | -       |
 
 
 
-
-
-
-
-| **Comandos**         |  **Destino**                   | **Tipo** |
-| Confirmar Envio | Atividade: Confirmação de Envio  | (default/cancel/  ) |
-| Cancelar      |    Início do Processo                            |       cancel            |
 
 
 
