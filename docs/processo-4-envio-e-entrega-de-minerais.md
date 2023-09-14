@@ -131,10 +131,10 @@ Os tipos de dados a serem utilizados são:
 
 | **Campo**       | **Tipo**         | **Restrições** | **Valor default** |
 | ---             | ---              | ---            | ---               |
-| Identificação do Mineral	 |Caixa de Texto  |                |                   |
-| ***Exemplo:***  |                  |                |                   |
-| login           | Caixa de Texto   | formato de e-mail |                |
-| senha           | Caixa de Texto   | mínimo de 8 caracteres |           |
+| Identificação do Mineral	 |Caixa de Texto  |  Não pode estar vazio              |                   |
+| Quantidade  |  Número                |    Valor >0            |     1              |
+| data de envio          | data   | nao pode ser data da fatura |        data atual        |
+| hora do envio           | hora   | - |           | hora atua
 
 | **Comandos**         |  **Destino**                   | **Tipo** |
 | ---                  | ---                            | ---               |
