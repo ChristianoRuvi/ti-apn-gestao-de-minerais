@@ -253,11 +253,11 @@ Atividade 2: Criar Listagem
  
 | Campo | Tipo | Restrições | Valor padrão |
 | ------------------- | ----------------- | -------------- | ----------------- |
-| Nome do Mineral | Caixa de Texto | | |
-| Descrição | Área de Texto | | |
-| Tipo de Listagem | Seleção Única | | |
-| Preço Inicial | Número | Valor mínimo: 0| |
-| Quantidade Disponível | Número | Valor mínimo: 1| |
+| Nome do Mineral | Caixa de Texto | - | - |
+| Descrição | Área de Texto | - | - |
+| Tipo de Listagem | Seleção Única | - | - |
+| Preço Inicial | Número | Valor mínimo: 0| - |
+| Quantidade Disponível | Número | Valor mínimo: 1| - |
 
  
 | Comandos | Destino | Tipo |
@@ -271,8 +271,8 @@ Atividade 3: Listar para Leilão
  
 | Campo | Tipo | Restrições | Valor padrão |
 | ------------------- | ----------------- | -------------- | ----------------- |
-| Valor de Lance Inicial | Número | Valor mínimo: 0| |
-| Data de Término do Leilão | Data e Hora | Data e hora futura | |
+| Valor de Lance Inicial | Número | Valor mínimo: 0| - |
+| Data de Término do Leilão | Data e Hora | Data e hora futura | - |
 
  
 | Comandos | Destino | Tipo |
@@ -285,7 +285,7 @@ Atividade 4: Confirmar Listagem no Leilão
  
 | Campo | Tipo | Restrições | Valor padrão |
 | ------------------- | ----------------- | -------------- | ----------------- |
-| Detalhes da Listagem | Tabela | | |
+| Detalhes da Listagem | Tabela | - | - |
 
  
 Atividade 5: Listar para Venda Direta
@@ -293,7 +293,7 @@ Atividade 5: Listar para Venda Direta
  
 | Campo | Tipo | Restrições | Valor padrão |
 | ------------------- | ----------------- | -------------- | ----------------- |
-| Preço de Venda | Número | Valor mínimo: 0| |
+| Preço de Venda | Número | Valor mínimo: 0| - |
 
  
 | Comandos | Destino | Tipo |
@@ -306,7 +306,7 @@ Atividade 6: Confirmar Listagem Direta
  
 | Campo | Tipo | Restrições | Valor padrão |
 | ------------------- | ----------------- | -------------- | ----------------- |
-| Detalhes da Listagem Direta | Tabela | | |
+| Detalhes da Listagem Direta | Tabela | - | - |
 
  
 | Comandos | Destino | Tipo |
@@ -319,5 +319,5 @@ Atividade 7: Finalizar Listagem Direta
  
 | Campo | Tipo | Restrições | Valor padrão |
 | ------------------- | ----------------- | -------------- | ----------------- |
-| Valor do Mineral | Número | | |
+| Valor do Mineral | Número | - | - |
 
