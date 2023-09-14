@@ -1,4 +1,4 @@
-### 3.3.2 Processo 2 – NOME DO PROCESSO
+### 3.3.2 Processo 2 – Listagem de Minerais para leilão e venda direta
 
 Apresente aqui o nome e as oportunidades de melhorias para o processo 2. 
 Em seguida, apresente o modelo do processo 2, descrito no padrão BPMN.
@@ -23,8 +23,9 @@ Em seguida, apresente o modelo do processo 2, descrito no padrão BPMN.
       <bpmn:lane id="Lane_032w1fr" name="Cliente">
         <bpmn:flowNodeRef>Activity_1sjv2bg</bpmn:flowNodeRef>
         <bpmn:flowNodeRef>Gateway_1yfthj7</bpmn:flowNodeRef>
-        <bpmn:flowNodeRef>Activity_0e80xso</bpmn:flowNodeRef>
         <bpmn:flowNodeRef>Activity_1cou1om</bpmn:flowNodeRef>
+        <bpmn:flowNodeRef>Event_0isllz5</bpmn:flowNodeRef>
+        <bpmn:flowNodeRef>Event_0fomaib</bpmn:flowNodeRef>
       </bpmn:lane>
     </bpmn:laneSet>
     <bpmn:startEvent id="StartEvent_1">
@@ -75,14 +76,19 @@ Em seguida, apresente o modelo do processo 2, descrito no padrão BPMN.
       <bpmn:outgoing>Flow_18dafby</bpmn:outgoing>
       <bpmn:outgoing>Flow_0lr4vqd</bpmn:outgoing>
     </bpmn:exclusiveGateway>
-    <bpmn:sequenceFlow id="Flow_18dafby" sourceRef="Gateway_1yfthj7" targetRef="Activity_1cou1om" />
-    <bpmn:sequenceFlow id="Flow_0lr4vqd" sourceRef="Gateway_1yfthj7" targetRef="Activity_0e80xso" />
-    <bpmn:subProcess id="Activity_0e80xso" name="Compra direta">
-      <bpmn:incoming>Flow_0lr4vqd</bpmn:incoming>
-    </bpmn:subProcess>
-    <bpmn:serviceTask id="Activity_1cou1om" name="Mostrar lance atual">
+    <bpmn:sequenceFlow id="Flow_18dafby" name="Leilão" sourceRef="Gateway_1yfthj7" targetRef="Activity_1cou1om" />
+    <bpmn:sequenceFlow id="Flow_0lr4vqd" name="Compra direta" sourceRef="Gateway_1yfthj7" targetRef="Event_0isllz5" />
+    <bpmn:serviceTask id="Activity_1cou1om" name="Exibir lance atual e horário do encerramento do leilão">
       <bpmn:incoming>Flow_18dafby</bpmn:incoming>
+      <bpmn:outgoing>Flow_1dqgl8x</bpmn:outgoing>
     </bpmn:serviceTask>
+    <bpmn:endEvent id="Event_0isllz5">
+      <bpmn:incoming>Flow_0lr4vqd</bpmn:incoming>
+    </bpmn:endEvent>
+    <bpmn:endEvent id="Event_0fomaib">
+      <bpmn:incoming>Flow_1dqgl8x</bpmn:incoming>
+    </bpmn:endEvent>
+    <bpmn:sequenceFlow id="Flow_1dqgl8x" sourceRef="Activity_1cou1om" targetRef="Event_0fomaib" />
   </bpmn:process>
   <bpmndi:BPMNDiagram id="BPMNDiagram_1">
     <bpmndi:BPMNPlane id="BPMNPlane_1" bpmnElement="Collaboration_111keer">
@@ -133,10 +139,13 @@ Em seguida, apresente o modelo do processo 2, descrito no padrão BPMN.
       </bpmndi:BPMNShape>
       <bpmndi:BPMNShape id="Activity_0inm5os_di" bpmnElement="Activity_1cou1om">
         <dc:Bounds x="480" y="510" width="100" height="80" />
-      </bpmndi:BPMNShape>
-      <bpmndi:BPMNShape id="Activity_1azxuji_di" bpmnElement="Activity_0e80xso">
-        <dc:Bounds x="480" y="620" width="100" height="80" />
         <bpmndi:BPMNLabel />
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="Event_0isllz5_di" bpmnElement="Event_0isllz5">
+        <dc:Bounds x="512" y="642" width="36" height="36" />
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="Event_0fomaib_di" bpmnElement="Event_0fomaib">
+        <dc:Bounds x="692" y="532" width="36" height="36" />
       </bpmndi:BPMNShape>
       <bpmndi:BPMNEdge id="Flow_0uugwqr_di" bpmnElement="Flow_0uugwqr">
         <di:waypoint x="248" y="230" />
@@ -184,16 +193,23 @@ Em seguida, apresente o modelo do processo 2, descrito no padrão BPMN.
       <bpmndi:BPMNEdge id="Flow_18dafby_di" bpmnElement="Flow_18dafby">
         <di:waypoint x="375" y="550" />
         <di:waypoint x="480" y="550" />
+        <bpmndi:BPMNLabel>
+          <dc:Bounds x="413" y="532" width="30" height="14" />
+        </bpmndi:BPMNLabel>
       </bpmndi:BPMNEdge>
       <bpmndi:BPMNEdge id="Flow_0lr4vqd_di" bpmnElement="Flow_0lr4vqd">
         <di:waypoint x="350" y="575" />
         <di:waypoint x="350" y="660" />
-        <di:waypoint x="480" y="660" />
+        <di:waypoint x="512" y="660" />
+        <bpmndi:BPMNLabel>
+          <dc:Bounds x="384" y="643" width="71" height="14" />
+        </bpmndi:BPMNLabel>
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id="Flow_1dqgl8x_di" bpmnElement="Flow_1dqgl8x">
+        <di:waypoint x="580" y="550" />
+        <di:waypoint x="692" y="550" />
       </bpmndi:BPMNEdge>
     </bpmndi:BPMNPlane>
-  </bpmndi:BPMNDiagram>
-  <bpmndi:BPMNDiagram id="BPMNDiagram_1w9lyl3">
-    <bpmndi:BPMNPlane id="BPMNPlane_1rdjaml" bpmnElement="Activity_0e80xso" />
   </bpmndi:BPMNDiagram>
 </bpmn:definitions>
 ```
