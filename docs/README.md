@@ -86,6 +86,24 @@ Estabelecendo um ambiente seguro e confiável para transações, incluindo um si
 
 ### 3.3. Modelagem dos Processos
 
+```plantuml
+@startmindmap
+* Processos
+
+right side
+**[#f37329] Listagem de Minerais para leilão e venda direta
+***_ Alexandre Breedveld
+**[#c6262e] Lances e compra direta
+***_ Christiano Ruvieri
+**[#68b723] Avaliações e feedback
+***_ Tiago Sousa
+**[#f9c440] Envio e entrega de minerais
+***_ Gustavo Ceolin
+**[#3689e6] Comunidade e conexões
+***_ Breno de Oliveira
+@endmindmap
+```
+
 [PROCESSO 1 - Nome do Processo](processo-1-nome-do-processo.md "Detalhamento do Processo 1.")
 
 [PROCESSO 2 - Nome do Processo](processo-2-nome-do-processo.md "Detalhamento do Processo 2.")
