@@ -134,24 +134,24 @@ Os tipos de dados a serem utilizados são:
 | Identificação do Mineral	 |Caixa de Texto  |  Não pode estar vazio              |                   |
 | Quantidade  |  Número                |    Valor >0            |     1              |
 | data de envio          | data   | nao pode ser data da fatura |        data atual        |
-| hora do envio           | hora   | - |           | hora atua
+| hora do envio           | hora   | - |           | hora atuaL
+
+|Imagem do Mineral |	Imagem |	Formatos: .jpg, .png	-
+|Origem |	Seleção única |	Opções: Mina A, Mina B, Mina C	-
+|Destino |	Seleção única |	Opções: Porto A, Porto B, Porto C	-
+|Documentos Associados |	Arquivo	Formatos: .pdf, .docx	-
+|Link de Rastreamento |	Link |	Deve começar com "http://" ou "https://"	-
+
+
+
+
+
+
 
 | **Comandos**         |  **Destino**                   | **Tipo** |
-| ---                  | ---                            | ---               |
-| [Nome do botão/link] | Atividade/processo de destino  | (default/cancel/  ) |
-| ***Exemplo:***       |                                |                   |
-| entrar               | Fim do Processo 1              | default           |
-| cadastrar            | Início do proceso de cadastro  |                   |
+| Confirmar Envio | Atividade: Confirmação de Envio  | (default/cancel/  ) |
+| Cancelar      |    Início do Processo                            |       cancel            |
 
 
-**Nome da atividade 2**
 
-| **Campo**       | **Tipo**         | **Restrições** | **Valor default** |
-| ---             | ---              | ---            | ---               |
-| [Nome do campo] | [tipo de dados]  |                |                   |
-|                 |                  |                |                   |
 
-| **Comandos**         |  **Destino**                   | **Tipo**          |
-| ---                  | ---                            | ---               |
-| [Nome do botão/link] | Atividade/processo de destino  | (default/cancel/  ) |
-|                      |                                |                   |
