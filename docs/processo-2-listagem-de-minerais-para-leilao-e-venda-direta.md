@@ -234,31 +234,90 @@ Os tipos de dados a serem utilizados são:
 * **Link** - campo que armazena uma URL
 * **Tabela** - campo formado por uma matriz de valores
 
-**Nome da atividade 1**
+Atividade 1: Iniciar o Processo de Listagem de Minerais
 
-| **Campo**       | **Tipo**         | **Restrições** | **Valor default** |
-| ---             | ---              | ---            | ---               |
-| [Nome do campo] | [tipo de dados]  |                |                   |
-| ***Exemplo:***  |                  |                |                   |
-| login           | Caixa de Texto   | formato de e-mail |                |
-| senha           | Caixa de Texto   | mínimo de 8 caracteres |           |
+ 
+| Campo | Tipo | Restrições | Valor padrão |
+| ----------------- | ------------------ | -------------- | ----------------- |
+| Tipo de Listagem | Seleção Única | | |
+| Data de Início | Data | Data atual | Data atual |
 
-| **Comandos**         |  **Destino**                   | **Tipo** |
-| ---                  | ---                            | ---               |
-| [Nome do botão/link] | Atividade/processo de destino  | (default/cancel/  ) |
-| ***Exemplo:***       |                                |                   |
-| entrar               | Fim do Processo 1              | default           |
-| cadastrar            | Início do proceso de cadastro  |                   |
+ 
+| Comandos | Destino | Tipo |
+| --------------------- | -------------------------------- | ----------------- |
+| Criar Listagem | Atividade 2: Criar Listagem | Default |
 
+ 
+Atividade 2: Criar Listagem
 
-**Nome da atividade 2**
+ 
+| Campo | Tipo | Restrições | Valor padrão |
+| ------------------- | ----------------- | -------------- | ----------------- |
+| Nome do Mineral | Caixa de Texto | | |
+| Descrição | Área de Texto | | |
+| Tipo de Listagem | Seleção Única | | |
+| Preço Inicial | Número | Valor mínimo: 0| |
+| Quantidade Disponível | Número | Valor mínimo: 1| |
 
-| **Campo**       | **Tipo**         | **Restrições** | **Valor default** |
-| ---             | ---              | ---            | ---               |
-| [Nome do campo] | [tipo de dados]  |                |                   |
-|                 |                  |                |                   |
+ 
+| Comandos | Destino | Tipo |
+| -------------------------- | -------------------------------------- | ----------------- |
+| Listar para Leilão | Atividade 3: Listar para Leilão | Default |
+| Listar para Venda Direta | Atividade 7: Listar para Venda Direta | Default |
 
-| **Comandos**         |  **Destino**                   | **Tipo**          |
-| ---                  | ---                            | ---               |
-| [Nome do botão/link] | Atividade/processo de destino  | (default/cancel/  ) |
-|                      |                                |                   |
+ 
+Atividade 3: Listar para Leilão
+
+ 
+| Campo | Tipo | Restrições | Valor padrão |
+| ------------------- | ----------------- | -------------- | ----------------- |
+| Valor de Lance Inicial | Número | Valor mínimo: 0| |
+| Data de Término do Leilão | Data e Hora | Data e hora futura | |
+
+ 
+| Comandos | Destino | Tipo |
+| -------------------------- | -------------------------------------- | ----------------- |
+| Confirmar Listagem no Leilão | Atividade 4: Confirmar Listagem no Leilão | Default |
+
+ 
+Atividade 4: Confirmar Listagem no Leilão
+
+ 
+| Campo | Tipo | Restrições | Valor padrão |
+| ------------------- | ----------------- | -------------- | ----------------- |
+| Detalhes da Listagem | Tabela | | |
+
+ 
+Atividade 5: Listar para Venda Direta
+
+ 
+| Campo | Tipo | Restrições | Valor padrão |
+| ------------------- | ----------------- | -------------- | ----------------- |
+| Preço de Venda | Número | Valor mínimo: 0| |
+
+ 
+| Comandos | Destino | Tipo |
+| -------------------------- | -------------------------------------- | ----------------- |
+| Confirmar Listagem Direta | Atividade 6: Confirmar Listagem Direta | Default |
+
+ 
+Atividade 6: Confirmar Listagem Direta
+
+ 
+| Campo | Tipo | Restrições | Valor padrão |
+| ------------------- | ----------------- | -------------- | ----------------- |
+| Detalhes da Listagem Direta | Tabela | | |
+
+ 
+| Comandos | Destino | Tipo |
+| -------------------------- | -------------------------------------- | ----------------- |
+| Finalizar Listagem Direta | Atividade 7: Finalizar Listagem Direta | Default |
+
+ 
+Atividade 7: Finalizar Listagem Direta
+
+ 
+| Campo | Tipo | Restrições | Valor padrão |
+| ------------------- | ----------------- | -------------- | ----------------- |
+| Valor do Mineral | Número | | |
+
