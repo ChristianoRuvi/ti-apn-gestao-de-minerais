@@ -1,8 +1,5 @@
 ### 3.3.2 Processo 2 – Listagem de Minerais para leilão e venda direta
 
-Apresente aqui o nome e as oportunidades de melhorias para o processo 2. 
-Em seguida, apresente o modelo do processo 2, descrito no padrão BPMN.
-
 ```bpmn
 <?xml version="1.0" encoding="UTF-8"?>
 <bpmn:definitions xmlns:bpmn="http://www.omg.org/spec/BPMN/20100524/MODEL" xmlns:bpmndi="http://www.omg.org/spec/BPMN/20100524/DI" xmlns:dc="http://www.omg.org/spec/DD/20100524/DC" xmlns:di="http://www.omg.org/spec/DD/20100524/DI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:modeler="http://camunda.org/schema/modeler/1.0" id="Definitions_0r8998u" targetNamespace="http://bpmn.io/schema/bpmn" exporter="Camunda Modeler" exporterVersion="5.14.0" modeler:executionPlatform="Camunda Cloud" modeler:executionPlatformVersion="8.2.0">
@@ -215,9 +212,6 @@ Em seguida, apresente o modelo do processo 2, descrito no padrão BPMN.
 ```
 
 #### Detalhamento das atividades
-
-Descrever aqui cada uma das propriedades das atividades do processo 2. 
-Devem estar relacionadas com o modelo de processo apresentado anteriormente.
 
 Os tipos de dados a serem utilizados são:
 
