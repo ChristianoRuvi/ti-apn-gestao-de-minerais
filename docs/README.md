@@ -104,15 +104,15 @@ right side
 @endmindmap
 ```
 
-[PROCESSO 1 - Nome do Processo](processo-1-lances-e-compra-direta.md "Detalhamento do Processo 1.")
+[PROCESSO 1 - Lances e Compras Diretas](processo-1-lances-e-compra-direta.md "Detalhamento do Processo 1.")
 
-[PROCESSO 2 - Nome do Processo](processo-2-listagem-de-minerais-para-leilao-e-venda-direta.md "Detalhamento do Processo 2.")
+[PROCESSO 2 - Listagem de Minerais para leilão e venda direta](processo-2-listagem-de-minerais-para-leilao-e-venda-direta.md "Detalhamento do Processo 2.")
 
-[PROCESSO 3 - Nome do Processo](processo-3-avaliacoes-e-feedback.md "Detalhamento do Processo 3.")
+[PROCESSO 3 - Avaliação e Feedback](processo-3-avaliacoes-e-feedback.md "Detalhamento do Processo 3.")
 
-[PROCESSO 4 - Nome do Processo](processo-4-envio-e-entrega-de-minerais.md "Detalhamento do Processo 4.")
+[PROCESSO 4 - Envio e Entrega](processo-4-envio-e-entrega-de-minerais.md "Detalhamento do Processo 4.")
 
-[PROCESSO 5 - Nome do Processo](processo-5-comunidade-e-conexoes.md "Detalhamento do Processo 5.")
+[PROCESSO 5 - Comunidade e Conexões](processo-5-comunidade-e-conexoes.md "Detalhamento do Processo 5.")
 
 ## 4. Projeto da Solução
 
