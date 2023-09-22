@@ -427,36 +427,36 @@ Os tipos de dados a serem utilizados são:
 
 | **Campo**       | **Tipo**         | **Restrições** | **Valor default** |
 | ---             | ---              | ---            | ---               |
-| Pontuação       | Seleção Única    |tem que estar entre 1 e 5|não tem   |
-| Comentário      | Área de Texto   |entre 1 e 100 caracteres|não tem     |
+| Engajamento       | Seleção Única    |tem que estar entre 1 e 5|não tem   |
+| Feedback da Atividade	      | Área de Texto   |entre 1 e 100 caracteres|não tem     |
 
 | **Comandos**         |  **Destino**                   | **Tipo**       |
 | ---                  | ---                            | ---            |
-| Enviar Avaliação     | fim da atividade 1             |default         |
+| Enviar Feedback     | fim da atividade 1             |default         |
 
 
 **Atividade 2 : Denúncia**
 
 | **Campo**             | **Tipo**                 | **Restrições**                 | **Valor default**                          |
 | ---                   | ---                      | ---                            | ---                                        |
-| Descrição do problema | Área de Texto            | entre 1 e 100 caracteres       | não tem                                    |
-| Evidências            | Arquivo                  | 5 Arquivos                     | não tem                                    |
+| Membro Conectado	 | Área de Texto            | entre 1 e 100 caracteres       | não tem                                    |
+| Tipo de Conexão	            | Arquivo                  | 5 Arquivos                     | não tem                                    |
 
 | **Comandos**         |  **Destino**                   | **Tipo**          |
 | ---                  | ---                            | ---               |
-| Enviardenuncia       |fim da atividade 2              |                   |
+| Registrar Conexão	       |fim da atividade 2              |                   |
 |                      |                                |                   |
 
 **Atividade 3 : Tratamento de Denúncia**
 
 | **Campo**            | **Tipo**         | **Restrições** | **Valor default** |
 | ---                  | ---              | ---            | ---               |
-|Descrição da denúncia | Área de Texto    | nenhuma        | nenhum            |
-|Aviso de restrição    | Área de texto    | nenhuma        | nenhum            |
-|Arquivos              | Arquivo          | 5 arquivos     | nenhum            |
+|Nome da Conexão	 | Área de Texto    | nenhuma        | nenhum            |
+|Impressão da Conexão	    | Área de texto    | nenhuma        | nenhum            |
+|Sugestões              | Área de Texto	          | nenhuma     | nenhum            |
 
 
 | **Comandos**         |  **Destino**                   | **Tipo**             |
 | ---                  | ---                            | ---                  |
-|Restringirconta       |Fim da Atividade 3              |                      |
-|DescreverDenuncia     |fim da Atividade 3              |                      |
+|Enviar Feedback	       |Fim da Atividade 3              |                      |
+|Arquivar Feedback	     |fim da Atividade 3              |                      |
