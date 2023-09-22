@@ -405,7 +405,7 @@
 
 #### Detalhamento das atividades
 
-Descrever aqui cada uma das propriedades das atividades do processo 5. 
+Descrever aqui cada uma das propriedades das atividades do processo 3. 
 Devem estar relacionadas com o modelo de processo apresentado anteriormente.
 
 Os tipos de dados a serem utilizados são:
@@ -423,31 +423,40 @@ Os tipos de dados a serem utilizados são:
 * **Link** - campo que armazena uma URL
 * **Tabela** - campo formado por uma matriz de valores
 
-**Nome da atividade 1**
+**Atividade 1 : Avaliação/Comentário**
 
 | **Campo**       | **Tipo**         | **Restrições** | **Valor default** |
 | ---             | ---              | ---            | ---               |
-| [Nome do campo] | [tipo de dados]  |                |                   |
-| ***Exemplo:***  |                  |                |                   |
-| login           | Caixa de Texto   | formato de e-mail |                |
-| senha           | Caixa de Texto   | mínimo de 8 caracteres |           |
+| Pontuação       | Seleção Única    |tem que estar entre 1 e 5|não tem   |
+| Comentário      | Área de Texto   |entre 1 e 100 caracteres|não tem     |
 
-| **Comandos**         |  **Destino**                   | **Tipo** |
-| ---                  | ---                            | ---               |
-| [Nome do botão/link] | Atividade/processo de destino  | (default/cancel/  ) |
-| ***Exemplo:***       |                                |                   |
-| entrar               | Fim do Processo 1              | default           |
-| cadastrar            | Início do proceso de cadastro  |                   |
+| **Comandos**         |  **Destino**                   | **Tipo**       |
+| ---                  | ---                            | ---            |
+| Enviar Avaliação     | fim da atividade 1             |default         |
 
 
-**Nome da atividade 2**
+**Atividade 2 : Denúncia**
 
-| **Campo**       | **Tipo**         | **Restrições** | **Valor default** |
-| ---             | ---              | ---            | ---               |
-| [Nome do campo] | [tipo de dados]  |                |                   |
-|                 |                  |                |                   |
+| **Campo**             | **Tipo**                 | **Restrições**                 | **Valor default**                          |
+| ---                   | ---                      | ---                            | ---                                        |
+| Descrição do problema | Área de Texto            | entre 1 e 100 caracteres       | não tem                                    |
+| Evidências            | Arquivo                  | 5 Arquivos                     | não tem                                    |
 
 | **Comandos**         |  **Destino**                   | **Tipo**          |
 | ---                  | ---                            | ---               |
-| [Nome do botão/link] | Atividade/processo de destino  | (default/cancel/  ) |
+| Enviardenuncia       |fim da atividade 2              |                   |
 |                      |                                |                   |
+
+**Atividade 3 : Tratamento de Denúncia**
+
+| **Campo**            | **Tipo**         | **Restrições** | **Valor default** |
+| ---                  | ---              | ---            | ---               |
+|Descrição da denúncia | Área de Texto    | nenhuma        | nenhum            |
+|Aviso de restrição    | Área de texto    | nenhuma        | nenhum            |
+|Arquivos              | Arquivo          | 5 arquivos     | nenhum            |
+
+
+| **Comandos**         |  **Destino**                   | **Tipo**             |
+| ---                  | ---                            | ---                  |
+|Restringirconta       |Fim da Atividade 3              |                      |
+|DescreverDenuncia     |fim da Atividade 3              |                      |
