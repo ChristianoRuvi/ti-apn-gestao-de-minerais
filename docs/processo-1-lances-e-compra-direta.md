@@ -432,6 +432,7 @@ Em seguida, apresente o modelo do processo 1, descrito no padrão BPMN.
   </bpmndi:BPMNDiagram>
 </bpmn:definitions>
 
+
 ```
 
 #### Detalhamento das atividades
