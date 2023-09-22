@@ -1,4 +1,4 @@
-### 3.3.3 Processo 3 – Avaliação e Feedback
+### Processo 3 – Avaliação e Feedback
 
 ```bpmn
 <?xml version="1.0" encoding="UTF-8"?>
@@ -445,6 +445,7 @@ Os tipos de dados a serem utilizados são:
 | **Comandos**         |  **Destino**                   | **Tipo**       |
 | ---                  | ---                            | ---            |
 | Enviar Avaliação     | fim da atividade 1             |default         |
+| Denunciar vendedor   | inicio da atividade 2          |default         |
 
 
 **Atividade 2 : Denúncia**
@@ -464,12 +465,11 @@ Os tipos de dados a serem utilizados são:
 | **Campo**            | **Tipo**         | **Restrições** | **Valor default** |
 | ---                  | ---              | ---            | ---               |
 |Descrição da denúncia | Área de Texto    | nenhuma        | nenhum            |
-|Aviso de restrição    | Área de texto    | nenhuma        | nenhum            |
+|Aviso de restrição    | Área de texto    | só é preenchido em casos de restrição | nenhum            |
 |Arquivos              | Arquivo          | 5 arquivos     | nenhum            |
 
 
 | **Comandos**         |  **Destino**                   | **Tipo**             |
 | ---                  | ---                            | ---                  |
-|Restringirconta       |Fim da Atividade 3              |                      |
-|DescreverDenuncia     |fim da Atividade 3              |                      |
-
+|RestringirConta       |Fim da Atividade 3              |                      |
+|RetornarDenuncia      |fim da Atividade 3              |                      |
